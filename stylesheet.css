@@ -1,3 +1,41 @@
+#whole-page {
+    display: flex;
+    justify-content: center;
+    
+}
+
 h1 {
     text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.off-screen-menu {
+    background-color: black;
+    max-width: 300px;
+    width: 100%;
+    color: white;
+    text-align: left;
+    position: fixed;
+    right: 10000000px;
+}
+.off-screen-menu.active {
+    right: 1650px;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+.ham-menu {
+    height: 50px;
+    width: 100%;
+    max-width: 50px;
+    position: relative;
+    margin-right: auto;
+}
+.ham-menu span{
+    height: 5px;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
 }
