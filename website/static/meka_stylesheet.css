@@ -15,12 +15,13 @@ p{
 }
 .off-screen-menu {
     background-color: black;
-    max-width: 300px;
+    max-width: 150px;
     width: 100%;
     color: white;
     text-align: left;
     position: fixed;
     left: 10000000px;
+    border-radius: 5px;
 }
 .off-screen-menu.show {
     left: 0px;

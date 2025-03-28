@@ -2,16 +2,18 @@
     display: flex;
     justify-content: center;
     
+    
 }
-
-h1 {
-    text-align: center;
-    justify-content: center;
+body {
+    background-color: rgb(34, 34, 34);
+}
+h1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    user-select: none;
 }
-
+p{
+    color:rgb(200,200,200);
+}
 .off-screen-menu {
     background-color: black;
     max-width: 150px;
@@ -22,32 +24,14 @@ h1 {
     left: 10000000px;
     border-radius: 5px;
 }
-
 .off-screen-menu.show {
     left: 0px;
 }
-
-body {
-    background-color: rgb(34, 34, 34);
-}
-
 .ham-menu {
-    font-size: 30px;
+    font-size: x-large;
     color: white;
     left: 16px;
     position: fixed;
-    cursor:pointer;
-    user-select: none;
-}
-.ham-menu:hover{
-    color: blue;
-}
-.info-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
     user-select: none;
 }
 a {
@@ -57,7 +41,6 @@ a {
 a:hover {
     color: blue;
 }
-ul {
-    list-style-type: none;
-    padding-left: 20px;
+.ham-menu:hover{
+    color: blue;
 }
